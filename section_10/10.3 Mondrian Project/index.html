@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    .quadro{
+      display:grid;
+      width:748px;
+      height:748px;
+      gap: 9px;
+      grid-template-columns: 320px auto 50px ;
+      
+    }
+    .quadro > div{
+      border: 9px solid #000;
+    }
+    .red{
+      background-color:#E72F24;
+      width: 320px;
+      height: 414px;
+    }
+    .white{
+      background-color:#F0F1EC;
+    }
+    .primeiro{
+      border: 0;
+      width: 320px;
+      height: 320px;
+      grid-column: span 2;
+      
+    }
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+   <div class="quadro">
+    <div class="red"></div>
+    <div class="white primeiro"></div>
+    <div class="yellow"></div>
+    <div class="blue"></div>
+    <div class="white segundo"></div>
+    <div class="white terceiro"></div>
+    <div class="blue"></div>
+    <div class="black"></div>
+   </div>
+</body>
+
+</html>
