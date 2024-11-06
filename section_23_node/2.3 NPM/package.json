@@ -1,0 +1,24 @@
+{
+  "name": "learning-npm",
+  "version": "1.0.0",
+  "description": "Im learning about npm",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeMascarenhas/fullstack-bootcamp.git"
+  },
+  "author": "Bernardo M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BeMascarenhas/fullstack-bootcamp/issues"
+  },
+  "homepage": "https://github.com/BeMascarenhas/fullstack-bootcamp#readme",
+  "dependencies": {
+    "sillyname": "^0.1.0",
+    "superheroes": "^4.0.0"
+  }
+}

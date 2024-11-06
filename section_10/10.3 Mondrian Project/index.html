@@ -10,12 +10,40 @@
       display:grid;
       width:748px;
       height:748px;
-      gap: 9px;
-      grid-template-columns: 320px auto 50px ;
+      grid-template-columns: 320px auto auto 50px ;
+      grid-template-rows: 414px auto 20px;
       
     }
-    .quadro > div{
+    .quadro > .red{
       border: 9px solid #000;
+      border-left: 0;
+    }
+    .quadro > .segundo{
+      border: 9px solid #000;
+      border-right: 0;
+      
+    }
+    .quadro > .terceiro{
+      border: 9px solid #000;
+    }
+    .quadro > .blue{
+      border: 9px solid #000;
+      border-right:0;
+      border-bottom: 10px solid #000;
+      border-left: 0;
+    }
+    .quadro > .yellow{
+      border: 9px solid #000;
+      border-bottom: 0;
+      border-top: 0;
+      
+  ;
+    }
+    .quadro > .black{
+      border: 9px solid #000000;
+      border-bottom: 0;
+      border-top: 0;
+
     }
     .red{
       background-color:#E72F24;
@@ -26,10 +54,32 @@
       background-color:#F0F1EC;
     }
     .primeiro{
-      border: 0;
-      width: 320px;
-      height: 320px;
+      margin-left: 9px;
+      grid-column: span 3;
+    }
+    
+    .terceiro{
+      margin-left: 9;
       grid-column: span 2;
+    }
+    .yellow{
+      background-color:#F9D01E;
+      height: 20px;
+      width: 198px;
+      grid-column-start: 2;
+    }
+    .blue{
+      background-color:#004592;
+      height: 130px;
+      width: 50px;
+  ;
+    }
+
+    .black{
+      width:153px ;
+      height: 20px;
+      grid-column-start: 3;
+      background-color: #232629;
       
     }
     /* 
@@ -53,11 +103,10 @@
    <div class="quadro">
     <div class="red"></div>
     <div class="white primeiro"></div>
-    <div class="yellow"></div>
-    <div class="blue"></div>
     <div class="white segundo"></div>
     <div class="white terceiro"></div>
     <div class="blue"></div>
+    <div class="yellow"></div>
     <div class="black"></div>
    </div>
 </body>

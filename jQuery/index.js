@@ -1,6 +1,4 @@
-
-
-
-$(ducument).on("keydown",function(){
-    $("h1").text("Key Pressed");
+// Init: js
+$(document).on("keydown",function(event){
+    $("h1").text(event.key);
 });
